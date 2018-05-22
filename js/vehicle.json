@@ -6,7 +6,8 @@ var VehicleData={
                  "Fuel": "Petrol",
                  "Consumption": 7,
                  "Year": 2010,
-                 "Price": 10000
+                 "Price": 10000,
+                 "Image": "img/car1.jpg"
                },
     {"Category": "Motor",
                  "Mileage": 30000,
@@ -15,7 +16,8 @@ var VehicleData={
                  "Fuel": "Petrol",
                  "Consumption": 6,
                  "Year": 2011,
-                 "Price": 3000
+                 "Price": 3000,
+                 "Image": "img/motor1.jpg" 
                },
     {"Category": "Truck",
                  "Mileage": 300000,
@@ -24,7 +26,8 @@ var VehicleData={
                  "Fuel": "Diesel",
                  "Consumption": 12,
                  "Year": 2008,
-                 "Price": 50000
+                 "Price": 50000,
+                 "Image": "img/truck1.jpg" 
                },
     {"Category": "Van",
                  "Mileage": 150000,
@@ -33,7 +36,8 @@ var VehicleData={
                  "Fuel": "petrol",
                  "Consumption": 9,
                  "Year": 2008,
-                 "Price": 20000
+                 "Price": 20000,
+                 "Image": "img/van1.jpg" 
                }                      
 
 };
