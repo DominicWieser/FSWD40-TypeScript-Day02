@@ -38,6 +38,16 @@ var VehicleData=[
                  "Year": 2008,
                  "Price": 20000,
                  "Image": "img/van1.jpg" 
-               }                      
+               },
+    {"Category": "Car",
+                 "Mileage": 33333,
+                 "Capacity": 3000,
+                 "Power": 200,
+                 "Fuel": "diesel",
+                 "Consumption": 9,
+                 "Year": 2018,
+                 "Price": 120000,
+                 "Image": "img/car2.jpg" 
+               }                                     
 
            ];

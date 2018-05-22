@@ -10,6 +10,9 @@
 	
 	<!-- General CSS -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- JSON import -->
+	<script src="js/vehicle.json" type="text/javascript"></script>
 <body>
 
 	<div class="container-fluid">
@@ -25,28 +28,16 @@
 		<div class="row">
 			<div class="col-lg-12 align col-md-12 col-sm-12 col-xs-12">
 				<div class="btn-group btn-group-lg special" role="group" aria-label="...">
-					<button type="button" class="btn btn-default">Car</button>
-					<button type="button" class="btn btn-default">Bike</button>
-					<button type="button" class="btn btn-default">Van</button>
-					<button type="button" class="btn btn-default">Truck</button>
+					<button type="button" class="btn btn-default" onclick="Output('Car')">Car</button>
+					<button type="button" class="btn btn-default" onclick="Output('Motor')">Bike</button>
+					<button type="button" class="btn btn-default" onclick="Output('Van')">Van</button>
+					<button type="button" class="btn btn-default" onclick="Output('Truck')">Truck</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="output">
-		<div class="row space">
-			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-				<a href="#">
-					<img src="img/car1.jpg" alt="car" class="img-responsive center-block">
-					<!-- Placeholder for Image -->
-				</a>
-			</div>
-
-			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cumque ducimus aspernatur enim, suscipit iure? Ab itaque asperiores eligendi perferendis nesciunt reiciendis ipsum, laudantium soluta fuga, earum. Aliquam modi optio quisquam facere natus officia. Odio numquam enim, similique ex maiores.</p>
-				<!-- OUTPUT FROM JS -->
-			</div>
-		</div>	
+		<!-- OUTPUT FROM script.js -->
 	</div>
 	
 
