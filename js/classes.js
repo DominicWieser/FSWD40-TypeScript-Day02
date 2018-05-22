@@ -41,7 +41,7 @@ var Vehicles = /** @class */ (function () {
         };
     };
     Vehicles.prototype.Contact = function () {
-        alert('you pushed the button for ' + VehicleCategory + "," + VehiclePrice);
+        alert('you pushed the button for ' + this.VehicleCategory + "," + this.VehiclePrice);
     };
     return Vehicles;
 }());
