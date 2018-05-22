@@ -40,6 +40,9 @@ var Vehicles = /** @class */ (function () {
             "Price": this.VehiclePrice
         };
     };
+    Vehicles.prototype.Contact = function () {
+        alert('you pushed the button for ' + VehicleCategory + "," + VehiclePrice);
+    };
     return Vehicles;
 }());
 var Motor = /** @class */ (function (_super) {
@@ -52,7 +55,8 @@ var Motor = /** @class */ (function (_super) {
     Motor.prototype.Data = function () {
         return { "Category": this.VehicleCategory,
             "Mileage": this.VehicleMileage,
-            "Capacity: this.VehicleCapacity,: "Power", "this": .VehiclePower,
+            "Capacity": this.VehicleCapacity,
+            "Power": this.VehiclePower,
             "Fuel": this.VehicleFuel,
             "Consumption": this.VehicleConsumption,
             "Year": this.VehicleYear,

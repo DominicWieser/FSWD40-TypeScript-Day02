@@ -32,6 +32,9 @@ class Vehicles{
            "Price": this.VehiclePrice
           };
        }
+  Contact(){
+   alert('you pushed the button for '+VehicleCategory+","+VehiclePrice);	
+  }     
 }
 
 class Motor extends Vehicles{

@@ -3,7 +3,8 @@ function Output(category){
  $('#output').html(``);	
  VehicleData.map(function(o){
                   if(o.Category==category)
-                   {var old=$('#output').html();
+                   {var element=new Vehicles(o.Category,o.Mileage,o.Capacity,o.Power,o.Fuel,o.Consumption,o.Year,o.Price);
+                    var old=$('#output').html();
                    	$('#output').html(old+`<div class="row space">
 			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 				<a href="#">
@@ -22,6 +23,7 @@ function Output(category){
                  <tr><td>"Year"</td><td>${o.Year}</td>
                  <tr><td>Price</td><td>${o.Price}</td>
                 </table> 
+                <button class="btn btn-danger" onclick="element.Contact()">Contact</button>
 			</div>
 		</div>
                    `);}	
