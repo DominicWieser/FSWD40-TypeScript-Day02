@@ -83,3 +83,24 @@ var Truck = /** @class */ (function (_super) {
     };
     return Truck;
 }(Vehicles));
+var Van = /** @class */ (function (_super) {
+    __extends(Van, _super);
+    function Van(category, mileage, capacity, power, fuel, consumption, year, price) {
+        var _this = _super.call(this, category, mileage, capacity, power, fuel, consumption, year, price) || this;
+        _this.seats = 8;
+        return _this;
+    }
+    Van.prototype.Data = function () {
+        return { "Category": this.VehicleCategory,
+            "Mileage": this.VehicleMileage,
+            "Capacity": this.VehicleCapacity,
+            "Power": this.VehiclePower,
+            "Fuel": this.VehicleFuel,
+            "Consumption": this.VehicleConsumption,
+            "Year": this.VehicleYear,
+            "Price": this.VehiclePrice,
+            "Seats": this.seats
+        };
+    };
+    return Van;
+}(Vehicles));

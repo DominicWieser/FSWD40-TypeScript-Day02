@@ -72,3 +72,23 @@ class Truck extends Vehicles{
                };
        }
 }
+
+class Van extends Vehicles{
+ seats;
+
+ constructor(category,mileage,capacity,power,fuel,consumption,year,price){
+ super(category,mileage,capacity,power,fuel,consumption,year,price);
+ this.seats=8;
+ }
+ Data(){return {"Category": this.VehicleCategory,
+                 "Mileage": this.VehicleMileage,
+                 "Capacity": this.VehicleCapacity,
+                 "Power": this.VehiclePower,
+                 "Fuel": this.VehicleFuel,
+                 "Consumption": this.VehicleConsumption,
+                 "Year": this.VehicleYear,
+                 "Price": this.VehiclePrice,
+                 "Seats": this.seats
+               };
+       }
+}
