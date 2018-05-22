@@ -1,8 +1,10 @@
 
 function Output(category){
+ $('#output').html(``);	
  VehicleData.map(function(o){
                   if(o.Category==category)
-                   {$('#output').html(`<div class="row space">
+                   {var old=$('#output').html();
+                   	$('#output').html(old+`<div class="row space">
 			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 				<a href="#">
 					<img src="${o.Image}" alt="car" class="img-responsive center-block">
