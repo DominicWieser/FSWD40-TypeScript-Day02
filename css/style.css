@@ -1,0 +1,28 @@
+
+h1 {
+	color: #FF6501;
+}
+
+#space {
+	background-color: #F7F7F7;
+	border-left: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+	height: 100px;
+}
+
+.align {
+	text-align: center;
+}
+
+.btn-group.special {
+	display: flex;
+	margin-top: 50px;
+}
+
+.special .btn {
+	flex: 1;
+}
+
+.special .btn:hover {
+	color: #ff6501;
+}
