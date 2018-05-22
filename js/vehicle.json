@@ -1,5 +1,5 @@
 var VehicleData={
-  {"Category": "Car",
+  "Category": "Car",
                  "Mileage": 50000,
                  "Capacity": 1500,
                  "Power": 50,

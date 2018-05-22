@@ -21,15 +21,16 @@ class Vehicles{
 
  Category(){return this.VehicleCategory;}
  Mileage(){return this.VehicleMileage;}
- Data(){return {"Category": this.VehicleCategory,
-                 "Mileage": this.VehicleMileage,
-                 "Capacity": this.VehicleCapacity,
-                 "Power": this.VehiclePower,
-                 "Fuel": this.VehicleFuel,
-                 "Consumption": this.VehicleConsumption,
-                 "Year": this.VehicleYear,
-                 "Price": this.VehiclePrice
-               };
+ Data(){
+  return { "Category": this.VehicleCategory,
+           "Mileage": this.VehicleMileage,
+           "Capacity": this.VehicleCapacity,
+           "Power": this.VehiclePower,
+           "Fuel": this.VehicleFuel,
+           "Consumption": this.VehicleConsumption,
+           "Year": this.VehicleYear,
+           "Price": this.VehiclePrice
+          };
        }
 }
 
@@ -40,9 +41,9 @@ class Motor extends Vehicles{
  super(category,mileage,capacity,power,fuel,consumption,year,price);
  this.seats=2;
  }
- Data(){return {"Category": this.VehicleCategory,
+ Data(){return { "Category": this.VehicleCategory,
                  "Mileage": this.VehicleMileage,
-                 "Capacity: this.VehicleCapacity,
+                 "Capacity": this.VehicleCapacity,
                  "Power": this.VehiclePower,
                  "Fuel": this.VehicleFuel,
                  "Consumption": this.VehicleConsumption,
