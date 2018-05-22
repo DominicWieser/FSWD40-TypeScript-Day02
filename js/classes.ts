@@ -18,6 +18,19 @@ class Vehicles{
   this.VehicleYear=year;
   this.VehiclePrice=price;
  }
+
+ Category(){return this.VehicleCategory;}
+ Mileage(){return this.VehicleMileage;}
+ Data(){return {"Category": this.VehicleCategory,
+                 "Mileage": this.VehicleMileage,
+                 "Capacity": this.VehicleCapacity,
+                 "Power": this.VehiclePower,
+                 "Fuel": this.VehicleFuel,
+                 "Consumption": this.VehicleConsumption,
+                 "Year": this.VehicleYear,
+                 "Price": this.VehiclePrice
+               };
+       }
 }
 
 class Motor extends Vehicles{
@@ -27,6 +40,17 @@ class Motor extends Vehicles{
  super(category,mileage,capacity,power,fuel,consumption,year,price);
  this.seats=2;
  }
+ Data(){return {"Category": this.VehicleCategory,
+                 "Mileage": this.VehicleMileage,
+                 "Capacity: this.VehicleCapacity,
+                 "Power": this.VehiclePower,
+                 "Fuel": this.VehicleFuel,
+                 "Consumption": this.VehicleConsumption,
+                 "Year": this.VehicleYear,
+                 "Price": this.VehiclePrice,
+                 "Seats": this.seats
+               };
+       }
 }
 
 class Truck extends Vehicles{
@@ -36,4 +60,15 @@ class Truck extends Vehicles{
  super(category,mileage,capacity,power,fuel,consumption,year,price);
  this.seats=2;
  }
+ Data(){return {"Category": this.VehicleCategory,
+                 "Mileage": this.VehicleMileage,
+                 "Capacity": this.VehicleCapacity,
+                 "Power": this.VehiclePower,
+                 "Fuel": this.VehicleFuel,
+                 "Consumption": this.VehicleConsumption,
+                 "Year": this.VehicleYear,
+                 "Price": this.VehiclePrice,
+                 "Seats": this.seats
+               };
+       }
 }
