@@ -1,4 +1,4 @@
-var VehicleData={
+var VehicleData=[
                  {"Category": "Car",
                  "Mileage": 50000,
                  "Capacity": 1500,
@@ -40,4 +40,4 @@ var VehicleData={
                  "Image": "img/van1.jpg" 
                }                      
 
-};
+           ];
